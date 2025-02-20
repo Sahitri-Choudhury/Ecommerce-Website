@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 
   next();
 });
-/************ ROUTES *************/
+
 app.use("/api/v1/", productRoute);
 app.use("/api/v1/user", authRoute);
 
