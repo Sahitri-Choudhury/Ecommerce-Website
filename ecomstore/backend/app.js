@@ -5,7 +5,6 @@ require("./db");
 const productRoute = require("./routes/product");
 const authRoute = require("./routes/auth");
 const path = require("path");
-/*** MIDDLEVARES ****/
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
