@@ -7,7 +7,6 @@ const authRoute = require("./routes/auth");
 const path = require("path");
 /************ MIDDLEVARES *************/
 
-// Body parser middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
